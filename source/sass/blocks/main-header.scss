@@ -1,0 +1,33 @@
+.main-header {
+  margin: 0 auto;
+  padding: 0 48px;
+
+  display: flex;
+  width: $desktop-width;
+
+  background-color: $bacground-color;
+}
+
+.main-header__logo {
+  margin-right: 48px;
+}
+
+.main-header__phone-container {
+  padding-top: 40px;
+
+  width: 145px;
+
+  text-align: right;
+}
+
+.main-header__phone-number {
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $main-color;
+  text-decoration: none;
+}
