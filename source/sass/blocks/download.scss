@@ -1,0 +1,30 @@
+.download {
+  position: relative;
+  margin-right: auto;
+  padding-right: 24px;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+    width: 14px;
+    height: 14px;
+
+    background-image: url("../img/icon-download.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+}
+
+.download__presentation {
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: $main-color;
+}
