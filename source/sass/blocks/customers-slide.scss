@@ -1,0 +1,90 @@
+.customers-slide {
+  padding: 72px 48px;
+
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: $main-color;
+}
+
+.customers-slide__title {
+  margin-bottom: 65px;
+  width: 1010px;
+
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.customers-slide__list {
+  margin: 0;
+  margin-bottom: 98px;
+  padding: 0;
+  padding-left: 2px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.customers-slide__list-item {
+  position: relative;
+  margin-right: 72px;
+
+  width: 240px;
+
+  &--gazprom {
+    padding-top: 8px;
+  }
+
+  &--sibur {
+    padding-top: 5px;
+  }
+
+  &--rosneft {
+    padding-top: 5px;
+  }
+
+  &::before {
+    position: absolute;
+    top: 26px;
+    right: -11px;
+    transform: rotate(-28deg);
+
+    display: block;
+    width: 1px;
+    height: 50px;
+
+    background-color: $main-color;
+
+    content: "";
+    opacity: 0.6;
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 30px;
+    right: -11px;
+    transform: rotate(28deg);
+
+    display: block;
+    width: 1px;
+    height: 50px;
+
+    background-color: $main-color;
+
+    content: "";
+    opacity: 0.6;
+  }
+
+  &:last-child::before,
+  &:last-child::after {
+    display: none;
+  }
+}

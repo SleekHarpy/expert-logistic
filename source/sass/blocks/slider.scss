@@ -1,0 +1,71 @@
+.slider {
+  width: 1376px;
+}
+
+.swiper-container {
+  //width: 1376px;
+}
+
+
+.slider__item {
+  width: 1280px;
+}
+
+.slider__button {
+  position: relative;
+  padding: 22px 34px;
+
+  display: block;
+  width: 204px;
+  box-sizing: border-box;
+
+  font-family: $main-font-family;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: $main-color;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid $main-color;
+
+  &::after {
+    position: absolute;
+    top: 27px;
+    right: 32px;
+
+    display: block;
+    width: 20px;
+    height: 9px;
+
+    background-image: url("../img/icon-arrow.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--services-slide {
+    padding-left: 53px;
+    padding-right: 83px;
+  }
+
+  &--services-slide::after {
+    right: 52px;
+  }
+
+  &--customers-slide {
+    padding-left: 25px;
+  }
+
+  &--customers-slide::after {
+    right: 25px;
+  }
+
+  &--regions-slide {
+    padding-left: 45px;
+  }
+
+  &--regions-slide::after {
+    right: 44px;
+  }
+}

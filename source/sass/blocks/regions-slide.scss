@@ -1,0 +1,26 @@
+.regions-slide {
+  padding: 72px 48px;
+
+
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: $main-color;
+}
+
+.regions-slide__title {
+  margin-bottom: 38px;
+
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.regions-slide__description {
+  margin-bottom: 198px;
+  width: 464px;
+}

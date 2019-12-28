@@ -1,0 +1,135 @@
+.services-slide {
+  padding: 72px 48px;
+
+
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: $main-color;
+}
+
+.services-slide__title {
+  margin-bottom: 60px;
+  width: 1010px;
+
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.services-slide__list {
+  margin: 0;
+  margin-bottom: 54px;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1188px;
+  list-style: none;
+}
+
+.services-slide__list-item {
+  position: relative;
+  margin-bottom: 9px;
+  padding-top: 75px;
+  width: 180px;
+
+  &--car::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 56px;
+    height: 28px;
+
+    background-image: url("../img/icon-car.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--truck::before {
+    position: absolute;
+    top: -4px;
+    left: 0;
+
+    display: block;
+    width: 56px;
+    height: 31px;
+
+    background-image: url("../img/icon-truck.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--bus, &--mining {
+    padding-top: 70px;
+  }
+
+  &--bus::before {
+    position: absolute;
+    top: -6px;
+    left: 0;
+
+    display: block;
+    width: 56px;
+    height: 33px;
+
+    background-image: url("../img/icon-bus.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--tow-truck::before {
+    position: absolute;
+    top: -9px;
+    left: 0;
+
+    display: block;
+    width: 60px;
+    height: 40px;
+
+    background-image: url("../img/icon-tow-truck.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--mining::before {
+    position: absolute;
+    top: -8px;
+    left: 2px;
+
+    display: block;
+    width: 52px;
+    height: 34px;
+
+    background-image: url("../img/icon-bulldozer.svg");
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &::after {
+    position: absolute;
+    top: 50px;
+    left: 1px;
+
+    display: block;
+    width: 96px;
+    height: 2px;
+
+    background-color: $main-color;
+
+    content: "";
+  }
+}
