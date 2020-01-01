@@ -1,11 +1,10 @@
 .site-list {
   margin: 0;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 41px;
 
   display: flex;
   flex-wrap: wrap;
-  //min-width: 652px;
 
   font-family: $main-font-family;
   font-style: normal;
@@ -21,6 +20,10 @@
 .site-list__item {
   margin-right: 33px;
   margin-bottom: 10px;
+
+  &--active {
+    border-bottom: 2px solid $main-color;
+  }
 }
 
 .site-list__link {

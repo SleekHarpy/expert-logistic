@@ -1,6 +1,4 @@
 .trans-slide {
-
-
   padding: 72px 48px;
   padding-bottom: 34px;
 
@@ -45,6 +43,7 @@
   text-transform: uppercase;
 
   border-collapse: collapse;
+  box-sizing: border-box;
 }
 
 .trans-slide__row {

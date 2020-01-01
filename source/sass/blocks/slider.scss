@@ -2,13 +2,15 @@
   width: 1376px;
 }
 
-.swiper-container {
-  //width: 1376px;
-}
-
 
 .slider__item {
   width: 1280px;
+}
+
+.slider__button-container {
+  &--trans-slide {
+    padding-top: 30px;
+  }
 }
 
 .slider__button {
