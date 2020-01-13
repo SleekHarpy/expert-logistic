@@ -1,0 +1,92 @@
+.features {
+  margin-bottom: 94px;
+  padding-left: 129px;
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: $main-color;
+}
+
+.features__title {
+  margin-bottom: 64px;
+
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+}
+
+.features__list {
+  margin: 0;
+  margin-left: 7px;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__list-item {
+  position: relative;
+  margin-right: 56px;
+  padding-top: 63px;
+
+  width: 224px;
+
+  text-align: center;
+
+  list-style: none;
+
+  &--working {
+    width: 240px;
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 88px;
+
+    display: block;
+
+    background-repeat: no-repeat;
+
+    content: "";
+  }
+
+  &--monitoring::before {
+    width: 48px;
+    height: 48px;
+
+    background-image: url("../img/icon-pointer.svg");
+  }
+
+  &--control::before {
+    left: 92px;
+
+    width: 40px;
+    height: 48px;
+
+    background-image: url("../img/icon-operator.svg");
+  }
+
+  &--service::before {
+    left: 88px;
+
+    width: 48px;
+    height: 48px;
+
+    background-image: url("../img/icon-planet.svg");
+  }
+
+  &--working::before {
+    left: 99px;
+
+    width: 42px;
+    height: 48px;
+
+    background-image: url("../img/icon-umbrella.svg");
+  }
+}

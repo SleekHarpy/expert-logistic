@@ -1,7 +1,46 @@
 .main {
   margin: 0 auto;
   padding: 0 32px;
+  padding-top: 125px;
 
   width: $desktop-width;
-  height: 723px;
+}
+
+.main__main-page {
+  padding-bottom: 80px;
+}
+
+.main__button-back {
+  position: relative;
+  margin-top: 44px;
+  margin-bottom: 49px;
+  padding-left: 65px;
+
+  display: block;
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: $main-color;
+  text-decoration: none;
+  text-transform: lowercase;
+
+  opacity: 0.8;
+
+  &::before {
+    position: absolute;
+    top: 5px;
+    left: 24px;
+
+    display: block;
+    width: 30px;
+    height: 8px;
+
+    background-image: url("../img/icon-arrow-left.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
 }

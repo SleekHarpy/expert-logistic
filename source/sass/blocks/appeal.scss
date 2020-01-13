@@ -1,0 +1,44 @@
+.appeal {
+  margin-bottom: 150px;
+  padding-left: 132px;
+  padding-bottom: 10px;
+
+  font-family: $main-font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: $main-color;
+}
+
+.appeal__title {
+  margin-bottom: 64px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+}
+
+.appeal__text {
+  display: flex;
+}
+
+.appeal__photo {
+  margin-right: 57px;
+}
+
+.appeal__text-wrapper {
+  padding-top: 13px;
+  width: 590px;
+}
+
+.appeal__text-item {
+  padding-bottom: 9px;
+}
+
+.appeal__signature {
+  margin-left: auto;
+  margin-right: -10px;
+
+  display: block;
+}

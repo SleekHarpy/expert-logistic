@@ -1,4 +1,14 @@
 .main-header {
+  position: relative;
+  margin: 0 auto;
+
+  width: $desktop-width;
+
+  z-index: 10;
+}
+
+.main-header__wrapper {
+  position: fixed;
   margin: 0 auto;
   padding: 0 48px;
 

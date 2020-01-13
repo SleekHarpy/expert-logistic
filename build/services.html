@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Эксперт-логистик</title>
+    <title>Услуги</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="format-detection" content="telephone=no">
     <link rel="preload" href="fonts/montserrat-v14-cyrillic_latin-regular.woff2" as="font">
@@ -13,7 +13,7 @@
     <link href="css/style.min.css" rel="stylesheet">
   </head>
 
-  <body class="main-page main-page--trans-slide">
+  <body class="services-page">
 
     <div style="display:none">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow-left" viewBox="0 0 30 8">
@@ -83,93 +83,43 @@
 </symbol></svg>
     </div>
 
-      <header class="main-header">
-        <div class="main-header__wrapper">
-          <a class="main-header__logo">
-            <img class="main-header__logo-image" src="img/logo.svg" alt="Эксперт-логистик">
-          </a>
-          <nav class="main-navigation">
-            <ul class="main-navigation__list site-list">
-              <li class="site-list__item"><a class="site-list__link" href="about.html">О компании</a></li>
-              <li class="site-list__item"><a class="site-list__link" href="services.html">Услуги</a></li>
-              <li class="site-list__item"><a class="site-list__link" href="#">Клиенты</a></li>
-              <li class="site-list__item"><a class="site-list__link" href="#">Регионы</a></li>
-              <li class="site-list__item"><a class="site-list__link" href="jobs.html">Карьера</a></li>
-              <li class="site-list__item"><a class="site-list__link" href="#">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="main-header__phone-container">
-            <a class="main-header__phone-number" href="tel:+74953633020">+7 (495) 363–30–20</a>
-          </div>
+    <header class="main-header">
+      <div class="main-header__wrapper">
+        <a href="main.html" class="main-header__logo">
+          <img class="main-header__logo-image" src="img/logo.svg" alt="Эксперт-логистик">
+        </a>
+        <nav class="main-navigation">
+          <ul class="main-navigation__list site-list">
+            <li class="site-list__item"><a class="site-list__link" href="about.html">О компании</a></li>
+            <li class="site-list__item site-list__item--active"><a class="site-list__link">Услуги</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Клиенты</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Регионы</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="jobs.html">Карьера</a></li>
+            <li class="site-list__item"><a class="site-list__link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="main-header__phone-container">
+          <a class="main-header__phone-number" href="tel:+74953633020">+7 (495) 363–30–20</a>
         </div>
-      </header>
+      </div>
+    </header>
 
-    <main class="main main__main-page">
+    <main class="main">
 
-      <section class="slider swiper-container">
-        <div class="swiper-wrapper">
-          <section class="slider__item swiper-slide trans-slide">
-            <h1 class="trans-slide__title">Транспортные решения для бизнеса</h1>
-            <p class="trans-slide__description">«Эксперт-логистик» предоставляет полный комплекс транспортных услуг для вашей компании</p>
-            <div class="trans-slide__facts">
-              <div class="slider__button-container slider__button-container--trans-slide">
-                <a class="slider__button slider__button--trans-slide" href="#">Подробнее</a>
-              </div>
-              <table class="trans-slide__container">
-                <tr class="trans-slide__row">
-                  <td class="trans-slide__value trans-slide__value--auto">6000</td>
-                  <td class="trans-slide__value trans-slide__value--location">35</td>
-                  <td class="trans-slide__value trans-slide__value--years">14</td>
-                </tr>
-                <tr class="trans-slide__row">
-                  <td class="trans-slide__caption trans-slide__caption--auto">Единиц</td>
-                  <td class="trans-slide__caption trans-slide__caption--location">Локаций</td>
-                  <td class="trans-slide__caption trans-slide__caption--years">Лет</td>
-                </tr>
-                <tr class="trans-slide__row">
-                  <td class="trans-slide__fact-description trans-slide__fact-description--auto">Автопарк</td>
-                  <td class="trans-slide__fact-description trans-slide__fact-description--location">По всей России</td>
-                  <td class="trans-slide__fact-description trans-slide__fact-description--years">На рынке</td>
-                </tr>
-              </table>
-            </div>
-          </section>
+      <section class="services">
+        <h1 class="services__title">Услуги</h1>
 
-          <section class="slider__item swiper-slide services-slide">
-            <h1 class="services-slide__title">Контролируем весь цикл логистики</h1>
-            <ul class="services-slide__list">
-              <li class="services-slide__list-item services-slide__list-item--car">Легковой транспорт</li>
-              <li class="services-slide__list-item services-slide__list-item--truck">Грузовой транспорт</li>
-              <li class="services-slide__list-item services-slide__list-item--bus">Пассажирский транспорт</li>
-              <li class="services-slide__list-item services-slide__list-item--tow-truck">Спецтехника</li>
-              <li class="services-slide__list-item services-slide__list-item--mining">Горнодобывающая техника</li>
-            </ul>
-            <div class="slider__button-container">
-              <a class="slider__button slider__button--services-slide" href="#">Услуги</a>
-            </div>
-          </section>
-
-          <section class="slider__item swiper-slide customers-slide">
-            <h1 class="customers-slide__title">Нас выбрали</h1>
-            <ul class="customers-slide__list">
-              <li class="customers-slide__list-item customers-slide__list-item--gazprom"><img src="img/logo-gazprom.png" width="183" height="88" alt="Газпром"></li>
-              <li class="customers-slide__list-item customers-slide__list-item--schlumberger"><img src="img/logo-schlumberger.png" width="240" height="145" alt="Шлюмберже"></li>
-              <li class="customers-slide__list-item customers-slide__list-item--sibur"><img src="img/logo-sibur.png" width="240" height="139" alt="Сибур"></li>
-              <li class="customers-slide__list-item customers-slide__list-item--rosneft"><img src="img/logo-rosneft.png" width="240" height="139" alt="Роснефть"></li>
-            </ul>
-            <div class="slider__button-container">
-              <a class="slider__button slider__button--customers-slide" href="#">Все клиенты</a>
-            </div>
-          </section>
-
-          <section class="slider__item swiper-slide regions-slide">
-            <h1 class="regions-slide__title">Обширная география</h1>
-            <p class="regions-slide__description">«Эксперт-логистик» насчитывает более 20 филиалов и 35 производственных участкой на территории РФ</p>
-            <a class="slider__button slider__button--regions-slide" href="#">Регионы</a>
-          </section>
+        <div class="services__list-container">
+          <ul class="services__list">
+            <li class="services__list-item"><a class="services__link services__link--car" href="services-car.html"><span class="services__link-text">Легковой транспорт</span></a></li>
+            <li class="services__list-item"><a class="services__link services__link--freight" href="#"><span class="services__link-text">Грузовой транспорт</span></a></li>
+            <li class="services__list-item"><a class="services__link services__link--passenger" href="#"><span class="services__link-text">Пассажирский транспорт</span></a></li>
+            <li class="services__list-item"><a class="services__link services__link--special" href="#"><span class="services__link-text">Спецтехника</span></a></li>
+            <li class="services__list-item"><a class="services__link services__link--mining" href="#"><span class="services__link-text">Техника горной добычи</span></a></li>
+            <li class="services__list-item"><a class="services__link services__link--techno" href="#"><span class="services__link-text">Технологическое оборудование</span></a></li>
+          </ul>
         </div>
 
-        <div class="slider__pagination swiper-pagination"></div>
       </section>
 
     </main>
@@ -201,20 +151,6 @@
 
       </div>
     </footer>
-
-    <!-- Swiper JS -->
-  <script src="js/swiper.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 'auto',
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
 
   </body>
 
