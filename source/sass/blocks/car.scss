@@ -11,11 +11,26 @@
 }
 
 .car__title {
+  position: relative;
   margin-bottom: 38px;
   font-size: 64px;
   line-height: 80px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+
+  &::before {
+    position: absolute;
+    top: 49%;
+    right: calc(100% + 32px);
+
+    display: block;
+    width: 100vw;
+    height: 2px;
+
+    background-color: $opacity-color;
+
+    content: "";
+  }
 }
 
 .car__description {

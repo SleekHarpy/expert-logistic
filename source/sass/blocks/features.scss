@@ -12,12 +12,27 @@
 }
 
 .features__title {
+  position: relative;
   margin-bottom: 64px;
 
   font-weight: bold;
   font-size: 48px;
   line-height: 59px;
   letter-spacing: 0.02em;
+
+  &::before {
+    position: absolute;
+    top: 49%;
+    right: calc(100% + 32px);
+
+    display: block;
+    width: 100vw;
+    height: 2px;
+
+    background-color: $opacity-color;
+
+    content: "";
+  }
 }
 
 .features__list {

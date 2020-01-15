@@ -58,9 +58,9 @@
 
     opacity: 0.8;
 
-    content: counter(my-counter)"."; /* Выводим число */
+    content: counter(my-counter) "."; /* Выводим число */
     counter-increment: my-counter; /* Увеличиваем значение счётчика */
-   }
+  }
 }
 
 .jobs__list-title {
@@ -165,7 +165,7 @@
 
   &::before {
     top: 31px;
-   }
+  }
 }
 
 .jobs__list-item--active .jobs__list-panel {

@@ -1,9 +1,18 @@
 .slider {
-  width: 1376px;
+  margin-bottom: -12px;
 }
 
 .slider__item {
-  width: 1280px;
+  display: none;
+  min-width: $desktop-width;
+}
+
+.slider__item-wrapper {
+  margin: 0 auto;
+  margin-bottom: 12px;
+  padding-top: 125px;
+
+  width: $slide-width;
 }
 
 .slider__button-container {
@@ -69,4 +78,29 @@
   &--regions-slide::after {
     right: 44px;
   }
+}
+
+.slider__pagination {
+  transform: translateY(-92px);
+  margin: 0 auto;
+
+  display: flex;
+  width: $slide-width;
+}
+
+.slider__bullet {
+  margin-right: 4px;
+
+  display: block;
+  width: 64px;
+  height: 12px;
+
+  background-image: url("../img/icon-bullet.svg");
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}
+
+.slider__bullet--active {
+  background-image: url("../img/icon-bullet-active.svg");
 }

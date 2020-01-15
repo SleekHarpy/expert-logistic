@@ -1,7 +1,6 @@
 .services-slide {
   padding: 72px 48px;
-
-
+  padding-bottom: 160px;
 
   font-family: $main-font-family;
   font-style: normal;
@@ -10,6 +9,17 @@
   line-height: 20px;
   letter-spacing: 0.02em;
   color: $main-color;
+
+  background: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-desktop@1x.jpg");
+  background-color: rgb(66, 76, 83);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &--active {
+    display: block;
+  }
 }
 
 .services-slide__title {
@@ -70,7 +80,8 @@
     content: "";
   }
 
-  &--bus, &--mining {
+  &--bus,
+  &--mining {
     padding-top: 70px;
   }
 
