@@ -1,3 +1,55 @@
 .modal-response {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
   display: none;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+
+  color: $secondary-color;
+
+  z-index: 10;
+
+  background-color: $modal-overlay-color;
+
+  &--opened {
+    display: block;
+  }
+}
+
+.modal-response__wrapper {
+  margin: 0 auto;
+  margin-top: 160px;
+  padding: 72px 56px;
+
+  width: 1120px;
+
+  background-color: $main-color;
+}
+
+.modal-response__title {
+  margin: 0;
+  margin-bottom: 37px;
+
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+}
+
+.modal-response__text {
+  width: 800px;
+}
+
+.modal-response__vacancy {
+  font-weight: 600;
+  color: $important-color;
 }

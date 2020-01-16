@@ -91,7 +91,7 @@
 </symbol></svg>
     </div>
 
-    <header class="main-header">
+    <header class="main-header main-header--jobs">
       <div class="main-header__wrapper">
         <a href="main.html" class="main-header__logo">
           <img class="main-header__logo-image" src="img/logo.svg" alt="Эксперт-логистик">
@@ -211,20 +211,23 @@
     </footer>
 
     <section class="modal-response">
-      <h2 class="modal-response__title">Отправить резюме</h2>
-      <p class="modal-response__text">Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
-      <form class="modal-response__form form-response" action="#" method="GET" name="form-response">
-        <div class="modal-response__wrapper">
-          <input class="form-response__field" type="text" name="name" placeholder="Ваше имя">
-          <input class="form-response__field" type="text" name="e-mail" placeholder="Ваш e-mail">
-          <input class="form-response__field" type="text" name="phone" placeholder="Ваш телефон">
-          <p>
-            <input id="summary" class="form-response__field" type="file" name="summary">
-            <label for="summary">Прикрепить резюме</label>
-          </p>
-        </div>
-        <button class="form-response__button" type="submit">Отправить</button>
-      </form>
+      <div class="modal-response__wrapper">
+        <button class="modal-response__close visually-hidden">Закрыть окно отклика</button>
+        <h2 class="modal-response__title">Отправить резюме</h2>
+        <p class="modal-response__text">Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
+        <form class="modal-response__form form-response" action="#" method="GET" name="form-response">
+          <div class="modal-response__form-wrapper">
+            <input class="form-response__field" type="text" name="name" placeholder="Ваше имя">
+            <input class="form-response__field" type="email" name="e-mail" autocomplete="email" placeholder="Ваш e-mail">
+            <input class="form-response__field" type="tel" name="phone" autocomplete="tel" placeholder="Ваш телефон">
+            <p>
+              <input id="summary" class="form-response__field" type="file" name="summary">
+              <label for="summary">Прикрепить резюме</label>
+            </p>
+          </div>
+          <button class="form-response__button" type="submit">Отправить</button>
+        </form>
+      </div>
     </section>
 
   </body>
