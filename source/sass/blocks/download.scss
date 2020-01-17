@@ -27,4 +27,9 @@
   line-height: 15px;
 
   color: $main-color;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
 }

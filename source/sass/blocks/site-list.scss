@@ -20,13 +20,18 @@
 .site-list__item {
   margin-right: 33px;
   margin-bottom: 10px;
-
-  &--active {
-    border-bottom: 2px solid $main-color;
-  }
 }
 
 .site-list__link {
   color: $main-color;
   text-decoration: none;
+
+  &:hover:not(.site-list__link--active),
+  &:focus:not(.site-list__link--active) {
+    opacity: 0.6;
+  }
+
+  &--active {
+    border-bottom: 2px solid $main-color;
+  }
 }

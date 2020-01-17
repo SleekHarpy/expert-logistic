@@ -6,10 +6,6 @@
   width: $desktop-width;
 }
 
-.main__main-page {
-  //padding-bottom: 80px;
-}
-
 .main__button-back {
   position: relative;
   margin-top: 44px;
@@ -17,6 +13,7 @@
   padding-left: 65px;
 
   display: block;
+  width: 110px;
 
   font-family: $main-font-family;
   font-style: normal;
@@ -42,5 +39,10 @@
     background-image: url("../img/icon-arrow-left.svg");
     background-repeat: no-repeat;
     content: "";
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
   }
 }

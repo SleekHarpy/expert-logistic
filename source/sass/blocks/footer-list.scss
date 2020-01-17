@@ -46,4 +46,9 @@
 .footer-list__link {
   color: $main-color;
   text-decoration: none;
+
+  &:hover:not(.footer-list__link--active),
+  &:focus:not(.footer-list__link--active) {
+    opacity: 0.6;
+  }
 }

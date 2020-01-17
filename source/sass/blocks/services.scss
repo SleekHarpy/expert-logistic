@@ -82,7 +82,8 @@
   text-decoration: none;
   transform: skewX(33.2deg);
 
-  &:hover .services__link-text::after {
+  &:hover .services__link-text::after,
+  &:focus .services__link-text::after{
     position: absolute;
     left: 2px;
     bottom: -26px;
@@ -103,7 +104,8 @@
     background-position: -2px;
   }
 
-  &--car:hover {
+  &--car:hover,
+  &--car:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-car-hov-desktop@1x.jpg");
@@ -117,7 +119,8 @@
     background-position: -2px;
   }
 
-  &--freight:hover {
+  &--freight:hover,
+  &--freight:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-freight-hov-desktop@1x.jpg");
@@ -129,7 +132,8 @@
     background-position: -2px;
   }
 
-  &--passenger:hover {
+  &--passenger:hover,
+  &--passenger:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-passenger-hov-desktop@1x.jpg");
@@ -141,7 +145,8 @@
     background-position: -2px;
   }
 
-  &--special:hover {
+  &--special:hover,
+  &--special:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-special-hov-desktop@1x.jpg");
@@ -155,7 +160,8 @@
     background-position: -2px;
   }
 
-  &--mining:hover {
+  &--mining:hover,
+  &--mining:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-mining-hov-desktop@1x.jpg");
@@ -167,7 +173,8 @@
     background-position: -2px;
   }
 
-  &--techno:hover {
+  &--techno:hover,
+  &--techno:focus {
     padding-top: 190px;
 
     background-image: url("../img/services-bg-techno-hov-desktop@1x.jpg");

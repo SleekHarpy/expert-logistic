@@ -1,6 +1,7 @@
 'use strict';
 
 (function () {
+
   var fixIeBackground = function () {
     if (navigator.userAgent.match(/Trident\/7\./)) {
       document.body.addEventListener('mousewheel', function () {
@@ -13,4 +14,5 @@
   };
 
   fixIeBackground();
+
 })();

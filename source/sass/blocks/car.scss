@@ -10,7 +10,7 @@
   color: $main-color;
 }
 
-.car__title {
+.car h1 {
   position: relative;
   margin-bottom: 38px;
   font-size: 64px;
@@ -33,7 +33,7 @@
   }
 }
 
-.car__description {
+.car p {
   margin-bottom: 64px;
 }
 
@@ -47,7 +47,7 @@
   list-style: none;
 }
 
-.car__list-item {
+.car__list li {
   position: relative;
   margin-right: 72px;
   margin-bottom: 52px;

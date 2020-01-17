@@ -123,6 +123,11 @@
 
     content: "";
   }
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
 }
 
 .jobs__list-toggle {
@@ -156,6 +161,11 @@
     background-repeat: no-repeat;
 
     content: "";
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
   }
 }
 

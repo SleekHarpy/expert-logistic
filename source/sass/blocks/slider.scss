@@ -54,6 +54,10 @@
     content: "";
   }
 
+  &:hover {
+    opacity: 0.6;
+  }
+
   &--services-slide {
     padding-left: 53px;
     padding-right: 83px;
