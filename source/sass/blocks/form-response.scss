@@ -1,0 +1,39 @@
+.form-response__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  opacity: 0.25;
+}
+
+.form-response__item {
+  position: relative;
+  margin-right: 64px;
+}
+
+.form-response__field {
+  width: 360px;
+
+  border: none;
+  border-bottom: 2px solid $input-border-color;
+}
+
+.form-response__label {
+  position: absolute;
+  left: 5px;
+
+  transition: 0.3s;
+
+  pointer-events: none;
+}
+
+.form-response__field:focus ~ .form-response__label,
+.form-response__field:not(:focus):valid ~ .form-response__label {
+  top: -20px;
+  font-size: 10px;
+  line-height: 12px;
+}

@@ -59,6 +59,8 @@
 }
 
 .trans-slide__value {
+  display: block;
+
   font-weight: bold;
   font-size: 80px;
   line-height: 100%;
@@ -85,6 +87,8 @@
 .trans-slide__caption {
   margin-top: -19px;
   padding: 8px;
+
+  display: block;
   width: 100%;
 
   font-weight: 600;
@@ -115,6 +119,9 @@
 
 .trans-slide__fact-description {
   padding-top: 6px;
+
+  display: block;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;

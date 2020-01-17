@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>О компании</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Описание страницы">
@@ -53,7 +53,12 @@
       <section class="appeal">
         <h2 class="appeal__title">Обращение генерального директора</h2>
         <div class="appeal__text">
-          <img class="appeal__photo" src="img/photo-ceo@1x.jpg" width="400" height="488" alt="Генеральный директор">
+          <picture>
+            <source type="image/webp" srcset="img/photo-ceo@1x.webp">
+
+              <!-- 1х: 400px; 2x: 800px -->
+              <img class="appeal__photo" src="img/photo-ceo@1x.jpg" width="400" height="488" alt="Генеральный директор">
+          </picture>
           <div class="appeal__text-wrapper">
             <p class="appeal__text-item">Наша цель — повысить эффективность вашего бизнеса. Поэтому,
             в своей работе мы гибкие и осуществляем большинство запросов наших клиентов.</p>
@@ -61,7 +66,12 @@
             Передавая нам непрофильные бизнес-процессы, вы концентрируетесь на основной деятельности.</p>
             <p class="appeal__text-item">Нас за качество услуг и индивидуальный подход к решению задач.
             Мы погружаемся в индивидуальную потребность клиента, поэтому всегда добиваемся результата.</p>
-            <img class="appeal__signature" src="img/signature@1x.png" width="200" height="142" alt="Подпись генерального директора">
+            <picture>
+              <source type="image/webp" srcset="img/signature@1x.webp">
+
+              <!-- 1х: 200px; 2x: 400px -->
+              <img class="appeal__signature" src="img/signature@1x.png" width="200" height="142" alt="Подпись генерального директора">
+            </picture>
           </div>
         </div>
       </section>
@@ -140,6 +150,8 @@
 
       </div>
     </footer>
+
+    <script src="js/ie-fix-bg-bug.js"></script>
 
   </body>
 

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Карьера</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Описание страницы">
@@ -56,7 +56,9 @@
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
-            <button class="jobs__list-toggle" type="button">Подробнее</button>
+            <div>
+              <button class="jobs__list-toggle" type="button">Подробнее</button>
+            </div>
           </li>
 
           <li class="jobs__list-item jobs__list-item--active">
@@ -70,7 +72,10 @@
                   <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
-            <button class="jobs__list-toggle" type="button">Скрыть</button>
+            <div>
+              <button class="jobs__list-toggle" type="button">Скрыть</button>
+            </div>
+
           </li>
 
           <li class="jobs__list-item">
@@ -82,7 +87,9 @@
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
-            <button class="jobs__list-toggle" type="button">Подробнее</button>
+            <div>
+              <button class="jobs__list-toggle" type="button">Подробнее</button>
+            </div>
           </li>
 
           <li class="jobs__list-item">
@@ -93,7 +100,9 @@
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
-            <button class="jobs__list-toggle" type="button">Подробнее</button>
+            <div>
+              <button class="jobs__list-toggle" type="button">Подробнее</button>
+            </div>
           </li>
 
           <li class="jobs__list-item">
@@ -104,7 +113,9 @@
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
-            <button class="jobs__list-toggle" type="button">Подробнее</button>
+            <div>
+              <button class="jobs__list-toggle" type="button">Подробнее</button>
+            </div>
           </li>
 
         </ol>
@@ -146,12 +157,21 @@
         <h2 class="modal-response__title">Отправить резюме</h2>
         <p class="modal-response__text">Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
         <form class="modal-response__form form-response" action="#" method="GET" name="form-response">
-          <div class="modal-response__form-wrapper">
-            <input class="form-response__field" type="text" name="name" placeholder="Ваше имя">
-            <input class="form-response__field" type="email" name="e-mail" autocomplete="email" placeholder="Ваш e-mail">
-            <input class="form-response__field" type="tel" name="phone" autocomplete="tel" placeholder="Ваш телефон">
-            <p>
-              <input id="summary" class="form-response__field" type="file" name="summary">
+          <div class="form-response__wrapper">
+            <p class="form-response__item">
+              <input id="name" class="form-response__field" type="text" name="name" autocomplete="given-name" required>
+              <label class="form-response__label" for="name">Ваше имя</label>
+            </p>
+            <p class="form-response__item">
+              <input id="email" class="form-response__field" type="text" name="e-mail" autocomplete="email" required>
+              <label class="form-response__label" for="email">Ваш e-mail</label>
+            </p>
+            <p class="form-response__item">
+              <input id="phone" class="form-response__field" type="tel" name="phone" autocomplete="tel" required>
+              <label class="form-response__label" for="phone">Ваш телефон</label>
+            </p>
+            <p class="form-response__item">
+              <input id="summary" class="form-response__field" type="file" name="summary" value="Прикрепите резюме" required>
               <label for="summary">Прикрепить резюме</label>
             </p>
           </div>
@@ -159,6 +179,8 @@
         </form>
       </div>
     </section>
+
+    <script src="js/ie-fix-bg-bug.js"></script>
 
   </body>
 
