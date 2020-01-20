@@ -83,7 +83,7 @@
   transform: skewX(33.2deg);
 
   &:hover .services__link-text::after,
-  &:focus .services__link-text::after{
+  &:focus .services__link-text::after {
     position: absolute;
     left: 2px;
     bottom: -26px;

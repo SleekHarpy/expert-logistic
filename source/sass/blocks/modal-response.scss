@@ -26,6 +26,7 @@
 }
 
 .modal-response__wrapper {
+  position: relative;
   margin: 0 auto;
   margin-top: 160px;
   padding: 72px 56px;
@@ -33,6 +34,52 @@
   width: 1120px;
 
   background-color: $main-color;
+}
+
+.modal-response__close {
+  position: absolute;
+  top: 39px;
+  right: 39px;
+
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    top: 9px;
+    left: -2px;
+
+    display: block;
+    width: 22px;
+    height: 1px;
+
+    background-color: $close-button-color;
+
+    transform: rotate(-45deg);
+
+    content: "";
+  }
+
+  &::after {
+    position: absolute;
+    top: 9px;
+    left: -2px;
+
+    display: block;
+    width: 22px;
+    height: 1px;
+
+    background-color: $close-button-color;
+
+    transform: rotate(45deg);
+
+    content: "";
+  }
 }
 
 .modal-response__title {

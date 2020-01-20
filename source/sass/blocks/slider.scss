@@ -10,7 +10,7 @@
 .slider__item-wrapper {
   margin: 0 auto;
   margin-bottom: 12px;
-  padding-top: 125px;
+  padding-top: 115px;
 
   width: $slide-width;
 }
@@ -54,7 +54,8 @@
     content: "";
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     opacity: 0.6;
   }
 

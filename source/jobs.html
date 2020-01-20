@@ -149,26 +149,27 @@
 
     <section class="modal-response">
       <div class="modal-response__wrapper">
-        <button class="modal-response__close visually-hidden">Закрыть окно отклика</button>
+        <button class="modal-response__close"><span class="visually-hidden">Закрыть окно отклика</span></button>
         <h2 class="modal-response__title">Отправить резюме</h2>
         <p class="modal-response__text">Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
         <form class="modal-response__form form-response" action="#" method="GET" name="form-response">
           <div class="form-response__wrapper">
             <p class="form-response__item">
               <input id="name" type="text" name="name" autocomplete="given-name" required>
-              <label class="form-response__label" for="name">Ваше имя</label>
+              <label for="name">Ваше имя</label>
             </p>
             <p class="form-response__item">
               <input id="email" type="email" name="e-mail" autocomplete="email" required>
-              <label class="form-response__label" for="email">Ваш e-mail</label>
+              <label for="email">Ваш e-mail</label>
             </p>
             <p class="form-response__item">
-              <input id="phone" type="tel" name="phone" autocomplete="tel" required>
-              <label class="form-response__label" for="phone">Ваш телефон</label>
+              <input class="tel" id="phone" type="tel" name="phone" autocomplete="tel" required>
+              <label for="phone">Ваш телефон</label>
             </p>
-            <p class="form-response__item form-response__item--file">
-              <input id="summary" type="file" name="summary" value="Прикрепите резюме" required>
-              <label for="summary">Прикрепить резюме</label>
+            <p class="form-response__item-file">
+              <input class="we" id="summary" type="file" name="summary" required>
+              <label for="summary" tabindex="1">Прикрепите резюме</label>
+              <button class="form-response__button-repeat" type="button">Попробовать снова?</button>
             </p>
           </div>
           <button class="form-response__button" type="submit">Отправить</button>
@@ -176,7 +177,7 @@
       </div>
     </section>
 
-    <script src="js/ie-fix-bg-bug.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 
