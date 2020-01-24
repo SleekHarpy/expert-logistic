@@ -3,7 +3,15 @@
   padding: 0 32px;
   padding-top: 125px;
 
+  flex: 1 0 auto;
   width: $desktop-width;
+
+  &--size-slider {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+  }
 }
 
 .main__button-back {

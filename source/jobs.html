@@ -20,7 +20,7 @@
     <header class="main-header main-header--jobs-bg">
       <div class="main-header__wrapper">
         <a href="main.html" class="main-header__logo">
-          <img class="main-header__logo-image" src="img/logo.svg" alt="Эксперт-логистик">
+          <img src="img/logo.svg" alt="Эксперт-логистик">
         </a>
         <nav class="main-navigation">
           <ul class="main-navigation__list site-list">
@@ -41,14 +41,14 @@
     <main class="main">
 
       <section class="jobs">
-        <h1 class="jobs__title">Карьера</h1>
+        <h1>Карьера</h1>
         <ol class="jobs__list">
 
           <li class="jobs__list-item">
             <div class="jobs__list-wrapper">
-              <h2 class="jobs__list-title">Помощник руководителя транспортного узла, г. Орёл</h2>
+              <h2>Помощник руководителя транспортного узла, г. Орёл</h2>
               <div class="jobs__list-panel">
-                <p class="jobs__list-text"></p>
+                <p></p>
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
@@ -59,9 +59,9 @@
 
           <li class="jobs__list-item jobs__list-item--active">
             <div class="jobs__list-wrapper">
-              <h2 class="jobs__list-title">Помощник руководителя транспортного узла, г. Орёл</h2>
+              <h2>Помощник руководителя транспортного узла, г. Орёл</h2>
               <div class="jobs__list-panel">
-                <p class="jobs__list-text">Описание вакансиию 18 лет на российском рынке. Одна из ведущих компаний
+                <p>Описание вакансиию 18 лет на российском рынке. Одна из ведущих компаний
                   в сфере автотранспортных услуг. Оказываем услуги аренды и комплексного управления вашим автопарком.
                   Мы работаем — вы концентрируетесь на бизнесе. Полный социальный пакет, оплата стоматологии,
                   удобная столовая в офисе.</p>
@@ -76,10 +76,10 @@
 
           <li class="jobs__list-item">
             <div class="jobs__list-wrapper">
-              <h2 class="jobs__list-title">Руководитель направления «Разработка логистических
+              <h2>Руководитель направления «Разработка логистических
                 направлений в СФО», г. Новосибирск</h2>
               <div class="jobs__list-panel">
-                <p class="jobs__list-text"></p>
+                <p></p>
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
@@ -90,9 +90,9 @@
 
           <li class="jobs__list-item">
             <div class="jobs__list-wrapper">
-              <h2 class="jobs__list-title">Контент-менеджер в офис, г. Воронеж</h2>
+              <h2 >Контент-менеджер в офис, г. Воронеж</h2>
               <div class="jobs__list-panel">
-                <p class="jobs__list-text"></p>
+                <p></p>
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
@@ -103,9 +103,9 @@
 
           <li class="jobs__list-item">
             <div class="jobs__list-wrapper">
-              <h2 class="jobs__list-title">Оператор логистического направления, г. Санкт-Петербург</h2>
+              <h2>Оператор логистического направления, г. Санкт-Петербург</h2>
               <div class="jobs__list-panel">
-                <p class="jobs__list-text"></p>
+                <p></p>
                 <a class="jobs__list-button" href="#">Отправить резюме</a>
               </div>
             </div>
@@ -122,9 +122,9 @@
     <footer class="main-footer">
       <div class="main-footer__wrapper">
 
-        <section class="copyright">
-          <p class="copyright__content">ООО «Экспрет логистик» © 2019</p>
-        </section>
+        <div class="copyright">
+          <p>ООО «Экспрет логистик» © 2019</p>
+        </div>
 
         <section class="download">
           <a class="download__presentation" href="#">Скачать презентацию</a>
@@ -149,28 +149,28 @@
 
     <section class="modal-response">
       <div class="modal-response__wrapper">
-        <button class="modal-response__close"><span class="visually-hidden">Закрыть окно отклика</span></button>
-        <h2 class="modal-response__title">Отправить резюме</h2>
-        <p class="modal-response__text">Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
+        <button class="modal-response__close" type="button"><span class="visually-hidden">Закрыть окно отклика</span></button>
+        <h2>Отправить резюме</h2>
+        <p>Вы откликаетесь на вакансию <span class="modal-response__vacancy">Руководитель направления «Разработка логистических направлений в СФО», г. Новосибирск</span></p>
         <form class="modal-response__form form-response" action="#" method="GET" name="form-response">
           <div class="form-response__wrapper">
-            <p class="form-response__item">
+            <div class="form-response__item">
               <input id="name" type="text" name="name" autocomplete="given-name" required>
               <label for="name">Ваше имя</label>
-            </p>
-            <p class="form-response__item">
+            </div>
+            <div class="form-response__item">
               <input id="email" type="email" name="e-mail" autocomplete="email" required>
               <label for="email">Ваш e-mail</label>
-            </p>
-            <p class="form-response__item">
-              <input class="tel" id="phone" type="tel" name="phone" autocomplete="tel" required>
+            </div>
+            <div class="form-response__item">
+              <input id="phone" type="number" name="phone" autocomplete="tel" required>
               <label for="phone">Ваш телефон</label>
-            </p>
-            <p class="form-response__item-file">
-              <input class="we" id="summary" type="file" name="summary" required>
+            </div>
+            <div class="form-response__item-file">
+              <input id="summary" type="file" name="summary" required>
               <label for="summary" tabindex="1">Прикрепите резюме</label>
               <button class="form-response__button-repeat" type="button">Попробовать снова?</button>
-            </p>
+            </div>
           </div>
           <button class="form-response__button" type="submit">Отправить</button>
         </form>

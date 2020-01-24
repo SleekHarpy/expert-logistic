@@ -1,10 +1,13 @@
 .slider {
   margin-bottom: -12px;
+
+  height: 100%;
 }
 
 .slider__item {
   display: none;
   min-width: $desktop-width;
+  height: 100%;
 }
 
 .slider__item-wrapper {

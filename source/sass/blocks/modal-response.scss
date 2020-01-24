@@ -82,7 +82,7 @@
   }
 }
 
-.modal-response__title {
+.modal-response__wrapper > h2 {
   margin: 0;
   margin-bottom: 37px;
 
@@ -92,7 +92,7 @@
   letter-spacing: 0.02em;
 }
 
-.modal-response__text {
+.modal-response__wrapper > p {
   margin-bottom: 46px;
   width: 800px;
 }

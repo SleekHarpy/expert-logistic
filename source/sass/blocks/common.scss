@@ -1,9 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+
 .common {
   display: flex;
   flex-direction: column;
-  //min-width: $desktop-width;
+  min-width: $desktop-width;
+  height: 100%;
 
-  background-color: rgb(66, 76, 83);
+  background-color: $bacground-color;
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;

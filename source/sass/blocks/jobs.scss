@@ -11,7 +11,7 @@
   color: $main-color;
 }
 
-.jobs__title {
+.jobs h1 {
   margin-bottom: 22px;
   font-size: 64px;
   line-height: 86px;
@@ -67,7 +67,7 @@
   margin-right: auto;
 }
 
-.jobs__list-title {
+.jobs__list-item h2 {
   margin: 0;
 
   font-weight: 600;
@@ -88,7 +88,7 @@
   }
 }
 
-.jobs__list-text {
+.jobs__list-item p {
   margin-bottom: 43px;
 
   width: 800px;
