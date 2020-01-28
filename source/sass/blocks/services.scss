@@ -110,7 +110,7 @@
   &--car:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-car-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-car-desktop@1x.jpg");
   }
 
   &--freight {
@@ -125,7 +125,7 @@
   &--freight:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-freight-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-freight-desktop@1x.jpg");
   }
 
   &--passenger {
@@ -138,7 +138,7 @@
   &--passenger:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-passenger-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-passenger-desktop@1x.jpg");
   }
 
   &--special {
@@ -151,7 +151,7 @@
   &--special:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-special-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-special-desktop@1x.jpg");
   }
 
   &--mining {
@@ -166,7 +166,7 @@
   &--mining:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-mining-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-mining-desktop@1x.jpg");
   }
 
   &--techno {
@@ -179,7 +179,7 @@
   &--techno:focus {
     padding-top: 190px;
 
-    background-image: url("../img/services-bg-techno-hov-desktop@1x.jpg");
+    background-image: linear-gradient(45deg, rgba(66, 76, 83, 0.5) 0%, rgba(112, 60, 38, 1) 100%), url("../img/services-bg-techno-desktop@1x.jpg");
   }
 }
 
