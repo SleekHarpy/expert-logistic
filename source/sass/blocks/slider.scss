@@ -1,13 +1,10 @@
 .slider {
   margin-bottom: -12px;
-
-  height: 100%;
 }
 
 .slider__item {
   display: none;
   min-width: $desktop-width;
-  height: 100%;
 }
 
 .slider__item-wrapper {
@@ -16,6 +13,7 @@
   padding-top: 115px;
 
   width: $slide-width;
+  //height: 100vh;
 }
 
 .slider__button-container {

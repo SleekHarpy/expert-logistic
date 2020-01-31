@@ -1,5 +1,5 @@
 .result {
-  margin-bottom: 160px;
+  margin-bottom: 143px;
   padding-left: 125px;
 
   font-family: $main-font-family;
@@ -13,7 +13,7 @@
 
 .result h2 {
   position: relative;
-  margin-bottom: 62px;
+  margin-bottom: 66px;
   padding-left: 3px;
   font-weight: bold;
   font-size: 48px;
@@ -35,8 +35,30 @@
   }
 }
 
+.result__stats {
+  margin: 0;
+  padding: 0;
+  padding-left: 3px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.result__item {
+  margin-right: 80px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 164px;
+}
+
 .result__value {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+
   font-weight: bold;
   font-size: 96px;
   line-height: 117px;
@@ -45,20 +67,7 @@
 }
 
 .result__caption {
-  margin-bottom: 7px;
+  margin-bottom: 9px;
   font-style: italic;
   font-weight: bold;
-}
-
-.result__value,
-.result__caption,
-.result__description {
-  display: flex;
-}
-
-.result__cell {
-  margin-right: 80px;
-
-  display: block;
-  width: 164px;
 }

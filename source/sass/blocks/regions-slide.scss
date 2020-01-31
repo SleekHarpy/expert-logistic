@@ -9,13 +9,6 @@
   line-height: 27px;
   color: $main-color;
 
-  background: url("../img/regions-bg-desktop@1x.jpg");
-  background-color: rgb(66, 76, 83);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
-
   &--active {
     display: block;
   }
